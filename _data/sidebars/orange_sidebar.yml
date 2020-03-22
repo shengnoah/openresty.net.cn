@@ -1,0 +1,165 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: orange
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+
+  - title: Orange网关
+    output: web
+    folderitems:
+
+    - title: 第1章
+      url: 
+      output: web
+
+      subfolders:
+      - title: Advanced
+        output: web
+        subfolderitems:
+
+        - title: orange_api_server
+          url: /orange_api_server.html
+          output: web
+          
+        - title: orange_build_plugin
+          url: /orange_build_plugin.html
+          output: web
+
+        - title: orange_dashboard_usage
+          url: /orange_dashboard_usage.html
+          output: web
+
+    - title: 第2章
+      url: 
+      output: web
+
+      subfolders:
+      - title:  API
+        output: web
+        subfolderitems:
+
+        - title: orange_README
+          url: /orange_README.html
+          output: web
+
+        - title: orange_basic_auth
+          url: /orange_basic_auth.html
+          output: web
+
+        - title: orange_basic_info
+          url: /orange_basic_info.html
+          output: web
+    
+        - title: orange_divide
+          url: /orange_divide.html
+          output: web
+
+        - title: orange_key_auth
+          url: /orange_key_auth.html
+          output: web
+
+        - title: orange_monitor
+          url: /orange_monitor.html
+          output: web
+    
+        - title: orange_rate_limiting
+          url: /orange_rate_limiting.html
+          output: web
+
+        - title: orange_redirect
+          url: /orange_redirect.html
+          output: web
+
+        - title: orange_rewrite
+          url: /orange_rewrite.html
+          output: web
+
+        - title: orange_stat
+          url: /orange_stat.html
+          output: web
+
+        - title: orange_waf
+          url: /orange_waf.html
+          output: web
+
+
+    - title: 第3章
+      url: 
+      output: web
+
+      subfolders:
+      - title:  Concept
+        output: web
+        subfolderitems:
+
+        - title: orange_condition
+          url: /orange_condition.html
+          output: web
+
+        - title: orange_expression
+          url: /orange_expression.html
+          output: web
+
+        - title: orange_extraction
+          url: /orange_extraction.html
+          output: web
+
+        - title: orange_extractor
+          url: /orange_extractor.html
+          output: web
+
+        - title: orange_handle
+          url: /orange_handle.html
+          output: web
+
+        - title: orange_judge
+          url: /orange_judge.html
+          output: web
+
+        - title: orange_rule
+          url: /orange_rule.html
+          output: web
+
+    - title: 第4章
+      url: 
+      output: web
+
+      subfolders:
+      - title:  Guides
+        output: web
+        subfolderitems:
+
+        - title: orange_about
+          url: /orange_about.html
+          output: web
+
+        - title: orange_contributing
+          url: /orange_contributing.html
+          output: web
+
+        - title: orange_issues
+          url: /orange_issues.html
+          output: web
+
+        - title: orange_usages
+          url: /orange_usages.html
+          output: web
+
+

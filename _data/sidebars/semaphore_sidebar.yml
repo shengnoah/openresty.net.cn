@@ -1,0 +1,59 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: Programmer 
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: 1. 系统介绍
+    output: web, pdf
+    folderitems:
+
+    - title: 1.1 架构图
+      url: /semaphore_arch.html
+      output: web,pdf
+
+    - title: 1.2 部署安装
+      url: /index.html
+      output: web,pdf
+
+  - title: 2. AWVS扫描
+    output: web, pdf
+    folderitems:
+
+    - title: 2.1 接口API
+      url: /semaphore_awvs.html
+      output: web, pdf    
+
+  - title: 3. 其它系统 
+    output: web, pdf
+    folderitems:
+
+    - title: 3.1 Orange API网关
+      url: /orange_about.html
+      output: web, pdf    
+
+  - title: 4. 教程
+    output: web, pdf
+    folderitems:
+
+    - title: 4.1 AgentZhang的经典Nginx教程 
+      url: /agentzh-nginx-guide-01.html
+      output: web, pdf    
+    - title: 4.2 nginx-lua-module-zh-wiki 
+      url: /nginx-lua-module-zh-wiki.html
+      output: web, pdf    
