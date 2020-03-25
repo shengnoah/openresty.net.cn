@@ -1,6 +1,6 @@
 ---
 tile: HelloWorld
-tags: Openresty测试 
+tags: Openresty 
 keywords: openresty
 last_updated: July 3, 2016
 summary: openresty best practices
@@ -80,4 +80,4 @@ HelloWorld
 
 在浏览器中完成同样的访问：
 
-![](../images/first_helloworld.png)
+![](../images/practices/first_helloworld.png)
