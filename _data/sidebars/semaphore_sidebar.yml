@@ -57,3 +57,6 @@ entries:
     - title: 4.2 nginx-lua-module-zh-wiki 
       url: /nginx-lua-module-zh-wiki.html
       output: web, pdf    
+    - title: 4.3 Openresty最佳实践
+      url: /helloworld.html
+      output: web, pdf    

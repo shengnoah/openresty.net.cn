@@ -5,7 +5,7 @@ keywords: news, blog, updates, release notes, announcements
 permalink: index.html
 toc: false
 folder: news
-hide_sidebar: true
+hide_sidebar: false 
 ---
 
 

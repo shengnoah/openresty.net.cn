@@ -1,0 +1,485 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Openresty最佳实践
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Openresty API
+    output: web, pdf
+    folderitems:
+
+    - title: 如何对NginxLuaModule添加新API
+      url: /add_new_lua_api.html
+      output: web
+
+  - title: Openresty
+    output: web, pdf
+    folderitems:
+
+    - title: 怎样理解cosocket
+      url: /cosocket.html
+      output: web
+
+    - title: 获取请求body
+      url: /get_req_body.html
+      output: web
+
+    - title: 获取uri参数
+      url: /get_url_param.html
+      output: web
+
+    - title: helloworld
+      url: /helloworld.html
+      output: web
+
+    - title: 如何发起新HTTP请求
+      url: /how_request_http.html
+      output: web
+
+    - title: 使用Nginx内置绑定变量
+      url: /inline_var.html
+      output: web
+
+    - title: 环境搭建
+      url: /install.html
+      output: web
+
+    - title: CentOS平台安装
+      url: /install_on_centos.html
+      output: web
+
+    - title: Ubuntu平台安装
+      url: /install_on_ubuntu.html
+      output: web
+
+    - title: Windows 平台安装
+      url: /install_on_windows.html
+      output: web
+
+    - title: MacOS X平台安装
+      url: /install_osx.html
+      output: web
+
+    - title: 日志输出
+      url: /log_response.html
+      output: web
+
+    - title: 输出响应体
+      url: /outtest.html
+      output: web
+
+    - title: 输出响应体
+      url: /response.html
+      output: web
+
+    - title: 防止SQL注入
+      url: /safe_sql.html
+      output: web
+
+    - title: 不同阶段共享变量
+      url: /share_var.html
+      output: web
+
+    - title: 简单API Server框架
+      url: /simple_api.html
+      output: web
+
+    - title: 子查询
+      url: /sub_request.html
+      output: web
+
+    - title: 与其他location配合
+      url: /work_with_location.html
+      output: web
+
+
+  - title: Lua
+    output: web, pdf
+    folderitems:
+
+    - title: array_size
+      url: /array_size.html
+      output: web
+      
+    - title: break
+      url: /break.html
+      output: web
+      
+    - title: brief
+      url: /brief.html
+      output: web
+      
+    - title: build_env
+      url: /build_env.html
+      output: web
+      
+    - title: call_user_func_array
+      url: /call_user_func_array.html
+      output: web
+      
+    - title: capture
+      url: /capture.html
+      output: web
+    
+    - title: class
+      url: /class.html
+      output: web
+    
+    - title: control_structrues
+      url: /control_structrues.html
+      output: web
+    
+    - title: dot_diff
+      url: /dot_diff.html
+      output: web
+    
+    - title: dummy_var
+      url: /dummy_var.html
+      output: web
+    
+    - title: FFI
+      url: /FFI.html
+      output: web
+    
+    - title: file
+      url: /file.html
+      output: web
+    
+    - title: for
+      url: /for.html
+      output: web
+    
+    - title: function_before_use
+      url: /function_before_use.html
+      output: web
+    
+    - title: function_define
+      url: /function_define.html
+      output: web
+    
+    - title: function_descrip
+      url: /function_descrip.html
+      output: web
+    
+    - title: function_parameter
+      url: /function_parameter.html
+      output: web
+    
+    - title: function_result
+      url: /function_result.html
+      output: web
+    
+    - title: if_else
+      url: /if_else.html
+      output: web
+
+    - title: local
+      url: /local.html
+      output: web
+    
+    - title: main
+      url: /main.html
+      output: web
+    
+    - title: math_library
+      url: /math_library.html
+      output: web
+    
+    - title: metatable
+      url: /metatable.html
+      output: web
+    
+    - title: module_is_evil
+      url: /module_is_evil.html
+      output: web
+    
+    - title: module
+      url: /module.html
+      output: web
+    
+    - title: not_nill
+      url: /not_nill.html
+      output: web
+    
+    - title: not_use_lib
+      url: /not_use_lib.html
+      output: web
+    
+    - title: not_use_module
+      url: /not_use_module.html
+      output: web
+    
+    - title: object_oriented
+      url: /object_oriented.html
+      output: web
+    
+    - title: operator
+      url: /operator.html
+      output: web
+    
+    - title: re
+      url: /re.html
+      output: web
+    
+    - title: repeat
+      url: /repeat.html
+      output: web
+    
+    - title: string_library
+      url: /string_library.html
+      output: web
+    
+    - title: table_library
+      url: /table_library.html
+      output: web
+    
+    - title: time_date_function
+      url: /time_date_function.html
+      output: web
+    
+    - title: what_jit
+      url: /what_jit.html
+      output: web
+    
+    - title: while
+      url: /while.html
+      output: web
+
+
+  - title: 火焰图
+    output: web, pdf
+    folderitems:
+    - title: 如何定位问题
+      url: /pra_flame_how.html
+      output: web
+
+    - title: 如何安装火焰图生成工具
+      url: /pra_flame_install.html
+      output: web
+
+    - title: 显示的是什么
+      url: /pra_flame_what.html
+      output: web
+
+
+    - title: 什么时候使用
+      url: /pra_flame_when.html
+      output: web
+
+
+  - title: nginx lua
+    output: web, pdf
+    folderitems:
+
+    - title: pra_ngx_lua_allow_deny
+      url: /pra_ngx_lua_allow_deny.html
+      output: web
+
+    - title: pra_ngx_lua_block_io
+      url: /pra_ngx_lua_block_io.html
+      output: web
+
+    - title: pra_ngx_lua_cache
+      url: /pra_ngx_lua_cache.html
+      output: web
+
+    - title: pra_ngx_lua_capture
+      url: /pra_ngx_lua_capture.html
+      output: web
+
+    - title: pra_ngx_lua_continue_after_eof
+      url: /pra_ngx_lua_continue_after_eof.html
+      output: web
+
+    - title: pra_ngx_lua_debug
+      url: /pra_ngx_lua_debug.html
+      output: web
+
+    - title: pra_ngx_lua_ffi
+      url: /pra_ngx_lua_ffi.html
+      output: web
+
+    - title: pra_ngx_lua_hot_load
+      url: /pra_ngx_lua_hot_load.html
+      output: web
+
+    - title: pra_ngx_lua_how_one_instance_time
+      url: /pra_ngx_lua_how_one_instance_time.html
+      output: web
+
+    - title: 如何使用第三方RESTY库
+      url: /pra_ngx_lua_how_use_third_lib.html
+      output: web
+
+    - title: pra_ngx_lua_keepalive
+      url: /pra_ngx_lua_keepalive.html
+      output: web
+
+    - title: pra_ngx_lua_log
+      url: /pra_ngx_lua_log.html
+      output: web
+
+    - title: pra_ngx_lua_lua-limit
+      url: /pra_ngx_lua_lua-limit.html
+      output: web
+
+    - title: pra_ngx_lua_lua_opt
+      url: /pra_ngx_lua_lua_opt.html
+      output: web
+
+    - title: pra_ngx_lua_lua-variable-scope
+      url: /pra_ngx_lua_lua-variable-scope.html
+      output: web
+
+    - title: pra_ngx_lua_on_abort
+      url: /pra_ngx_lua_on_abort.html
+      output: web
+
+    - title: pra_ngx_lua_phase
+      url: /pra_ngx_lua_phase.html
+      output: web
+
+    - title: pra_ngx_lua_resolve_the_domain_name
+      url: /pra_ngx_lua_resolve_the_domain_name.html
+      output: web
+
+    - title: pra_ngx_lua_shared_get_keys
+      url: /pra_ngx_lua_shared_get_keys.html
+      output: web
+
+    - title: pra_ngx_lua_sleep
+      url: /pra_ngx_lua_sleep.html
+      output: web
+
+    - title: pra_ngx_lua_timer
+      url: /pra_ngx_lua_timer.html
+      output: web
+
+    - title: pra_ngx_lua_use_case
+      url: /pra_ngx_lua_use_case.html
+      output: web
+
+    - title: pra_ngx_lua_whats_cosocket
+      url: /pra_ngx_lua_whats_cosocket.html
+      output: web
+
+  - title: redis
+    output: web, pdf
+    folderitems:
+
+    - title: pra_redis_auth_connect
+      url: /pra_redis_auth_connect.html
+      output: web
+
+    - title: pra_redis_dynamic_redis_module_method
+      url: /pra_redis_dynamic_redis_module_method.html
+      output: web
+
+    - title: pra_redis_out_package
+      url: /pra_redis_out_package.html
+      output: web
+
+    - title: pra_redis_pipeline
+      url: /pra_redis_pipeline.html
+      output: web
+
+    - title: pra_redis_pub_sub_package
+      url: /pra_redis_pub_sub_package.html
+      output: web
+
+    - title: pra_redis_script
+      url: /pra_redis_script.html
+      output: web
+
+    - title: pra_redis_select-keeplive
+      url: /pra_redis_select-keeplive.html
+      output: web
+
+
+  - title: Postgres
+    output: web, pdf
+    folderitems:
+    - title: pra_postgres_health_check
+      url: /pra_postgres_health_check.html
+      output: web
+
+    - title: pra_postgres_how_to_use
+      url: /pra_postgres_how_to_use.html
+      output: web
+
+    - title: pra_postgres_not_support_transaction
+      url: /pra_postgres_not_support_transaction.html
+      output: web
+
+    - title: pra_postgres_sql_inject
+      url: /pra_postgres_sql_inject.html
+      output: web
+
+    - title: pra_postgres_timeout
+      url: /pra_postgres_timeout.html
+      output: web
+
+    
+  - title: nginx
+    output: web, pdf
+    folderitems:    
+    - title: pra_nginx_balancer
+      url: /pra_nginx_balancer.html
+      output: web
+
+    - title: pra_nginx_co-work_of_location
+      url: /pra_nginx_co-work_of_location.html
+      output: web
+
+    - title: pra_nginx_if_is_evil
+      url: /pra_nginx_if_is_evil.html
+      output: web
+
+    - title: pra_nginx_match_uri
+      url: /pra_nginx_match_uri.html
+      output: web
+
+    - title: pra_nginx_nginx_brief
+      url: /pra_nginx_nginx_brief.html
+      output: web
+
+    - title: pra_nginx_nginx_local_pcre
+      url: /pra_nginx_nginx_local_pcre.html
+      output: web
+
+    - title: pra_nginx_nginx_log
+      url: /pra_nginx_nginx_log.html
+      output: web
+
+    - title: pra_nginx_nginx
+      url: /pra_nginx_nginx.html
+      output: web
+
+    - title: pra_nginx_pitfalls_and_common_mistakes
+      url: /pra_nginx_pitfalls_and_common_mistakes.html
+      output: web
+
+    - title: pra_nginx_reverse_proxy
+      url: /pra_nginx_reverse_proxy.html
+      output: web
+
+    - title: pra_nginx_static_file
+      url: /pra_nginx_static_file.html
+      output: web
+
