@@ -2,7 +2,7 @@
 title: News
 sidebar: semaphore_sidebar
 keywords: news, blog, updates, release notes, announcements
-permalink: index.html
+permalink: index_frontpage.html
 toc: false
 folder: news
 hide_sidebar: false 
