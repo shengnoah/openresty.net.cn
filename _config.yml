@@ -3,13 +3,13 @@ repository: shengnoah/s.lua.ren
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Openresty 
+topnav_title: OpenResty 
 # this appears on the top navigation bar next to the home button
 
-site_title: Openresty 
+site_title: OpenResty 
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Openrsty 
+company_name: OpenResty 
 # this appears in the footer
 
 github_editme_path: shengnoah/s.lua.ren/blob/gh-pages/
