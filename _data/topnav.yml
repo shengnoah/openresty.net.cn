@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: 代码
-      external_url: https://github.com/freebuf-friends/semaphore
+      external_url: https://github.com/openresty/openresty
     - title: 新闻
       url: /news
 
