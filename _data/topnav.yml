@@ -7,18 +7,17 @@ topnav:
       external_url: https://github.com/freebuf-friends/semaphore
     - title: 新闻
       url: /news
-    - title: Semaphore 
-      url: /index.html
+
 
 
 #Topnav dropdowns
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: 插件 
+    - title: 手册 
       folderitems:
-        - title: AWVS驱动 
-          external_url: https://github.com/shengnoah/semaphore-awvs-driver 
+        - title: Nginx Lua 
+          external_url: https://lua.ren/pdf/Nginx+Lua%E7%BC%96%E7%A8%8B%E6%89%8B%E5%86%8C.pdf 
     - title: 产品
       folderitems:
         - title: Jekyll Documentation Theme
