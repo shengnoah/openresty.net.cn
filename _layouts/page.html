@@ -34,33 +34,51 @@ layout: default
     <div class="summary">{{page.summary}}</div>
    {% endif %}
 
+
+
+    <div class="row">
+    <!-- Content Column -->
+    {% assign content_col_size = "col-md-12" %}
     {% unless page.toc == false %}
-    {% include toc.html %}
+    {% assign content_col_size = "col-md-9" %}
     {% endunless %}
 
-
-    {% if site.github_editme_path %}
-
-    <a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-
-    {% endif %}
-
-   {{content}}
-
-    <div class="tags">
-        {% if page.tags != null %}
-        <b>Tags: </b>
-        {% assign projectTags = site.data.tags.allowed-tags %}
-        {% for tag in page.tags %}
-        {% if projectTags contains tag %}
-        <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
+    <div class="{{content_col_size}}" id="tg-sb-content">
+        {{content}}
     </div>
+
+    <!--  SideCar Column -->
+    {% unless page.toc == false %}
+    <div class="col-md-3" id="tg-sb-sidebar">
+    {% include toc.html %}
+    </div>
+    {% endunless %}
+
+    </div>
+
+
 
 {% include disqus.html %}
 
+{% if site.github_editme_path %}
+
+<a target="_blank" rel="noopener" href="https://github.com/{{site.github_editme_path}}{{page.path}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+{% endif %}
+</div>
+
+
+
+<div class="tags">
+    {% if page.tags != null %}
+    <b>Tags: </b>
+    {% assign projectTags = site.data.tags.allowed-tags %}
+    {% for tag in page.tags %}
+    {% if projectTags contains tag %}
+    <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
 </div>
 
 {{site.data.alerts.hr_shaded}}
