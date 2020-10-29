@@ -25,6 +25,6 @@ entries:
     folderitems:
 
     - title: 正文
-      url: /nginx-lua-module-zh-wiki.html
+      url: /index.html
       output: web,pdf
 
