@@ -7,6 +7,7 @@ permalink: index.html
 simple_map: false
 map_name: usermap
 box_number: 1
+hide_sidebar: true
 folder: nginx-lua-module-zh-wiki
 ---
 
